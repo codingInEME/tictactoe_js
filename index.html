@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TicTacToe</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <h1>TicTacToe</h1>
+    </header>
+    <main>
+        <table id="tictactoe">
+            <tr>
+                <td><button class="gameButton" class="gameButton" type="button" id="?00" value="?00"
+                        onClick="display('?00')"></button></td>
+                <td><button class="gameButton" type="button" id="?01" value="?01" onClick="display('?01')"></button>
+                </td>
+                <td><button class="gameButton" type="button" id="?02" value="?02" onClick="display('?02')"></button>
+                </td>
+            </tr>
+            <tr>
+                <td><button class="gameButton" type="button" id="?10" value="?10" onClick="display('?10')"></button>
+                </td>
+                <td><button class="gameButton" type="button" id="?11" value="?11" onClick="display('?11')"></button>
+                </td>
+                <td><button class="gameButton" type="button" id="?12" value="?12" onClick="display('?12')"></button>
+                </td>
+            </tr>
+            <tr>
+                <td><button class="gameButton" type="button" id="?20" value="?20" onClick="display('?20')"></button>
+                </td>
+                <td><button class="gameButton" type="button" id="?21" value="?21" onClick="display('?21')"></button>
+                </td>
+                <td><button class="gameButton" type="button" id="?22" value="?22" onClick="display('?22')"></button>
+                </td>
+            </tr>
+        </table>
+        <button type="button" id="start/reset" onClick="resetGame()">Play</button>
+    </main>
+    <script src="ticTacToe.js"></script>
+</body>
+
+</html>
